@@ -7,7 +7,7 @@ function Nav () {
 
     return (
         <div className = "w-full h-fit">
-        <div className='bg-pink-400 h-24 w-full flex items-center px-4 text-black overflow-hidden fixed top-0 z-10 shadow-md'>
+        <div className='bg-[#ffd1dc] h-24 w-full flex items-center px-4 text-black overflow-hidden fixed top-0 z-10 shadow-md'>
             <div className = 'container px-20 flex justify-between items-center mx-auto'>
                 <div className = 'flex justify-center items-center w-fit gap-4'><img
                     alt=""
@@ -33,7 +33,7 @@ function Nav () {
             </div>
         </div>  
       </div>    
-      <div className = {`fixed right-0 top-20 bg-purple-400 text-black text-lg p-10 pr-20 shadow-lg transition-all duration-600 ${showMenu ? "visible opacity-100" : "collapse opacity-0"} xl:collapse`}>
+      <div className = {`fixed right-0 top-20 bg-[#D8BFD8] text-black text-lg p-10 pr-20 shadow-lg transition-all duration-600 ${showMenu ? "visible opacity-100" : "collapse opacity-0"} xl:collapse`}>
                 <div className = "block">
                     <div className = "mb-4"><a href="/" className="hover:underline">Home</a></div>
                     <div className = "mb-4"><a href="/#/about" className="hover:underline">About</a></div>
