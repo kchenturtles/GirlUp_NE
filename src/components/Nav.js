@@ -20,11 +20,11 @@ function Nav () {
             {/* <img src aria-controls="navbar-nav" /> */}
             <div className = "flex justify-between items-center gap-16 text-lg collapse xl:visible">
                 <a href="/" className="hover:underline">Home</a>
-                <a href="/about" className="hover:underline">About</a>
-                <a href="/board" className="hover:underline">Executive Board</a>
-                <a href="/events" className="hover:underline">Events</a>
-                <a href="/blog" className="hover:underline">Blog</a>
-                <a href="/contact" className="hover:underline">Contact</a>
+                <a href="/#/about" className="hover:underline">About</a>
+                <a href="/#/board" className="hover:underline">Executive Board</a>
+                <a href="/#/events" className="hover:underline">Events</a>
+                <a href="/#/blog" className="hover:underline">Blog</a>
+                <a href="/#/contact" className="hover:underline">Contact</a>
             </div>
             <div className = "visible xl:collapse absolute right-10 top-50%">
                 <div className={`transition-transform duration-300 ${showMenu ? 'rotate-180' : ''}`}>
@@ -36,11 +36,11 @@ function Nav () {
       <div className = {`fixed right-0 top-20 bg-purple-400 text-black text-lg p-10 pr-20 shadow-lg transition-all duration-600 ${showMenu ? "visible opacity-100" : "collapse opacity-0"} xl:collapse`}>
                 <div className = "block">
                     <div className = "mb-4"><a href="/" className="hover:underline">Home</a></div>
-                    <div className = "mb-4"><a href="/about" className="hover:underline">About</a></div>
-                    <div className = "mb-4"><a href="/board" className="hover:underline">Executive Board</a></div>
-                    <div className = "mb-4"><a href="/events" className="hover:underline">Events</a></div>
-                    <div className = "mb-4"><a href="/blog" className="hover:underline">Blog</a></div>
-                    <div><a href="/contact" className="hover:underline">Contact</a></div>
+                    <div className = "mb-4"><a href="/#/about" className="hover:underline">About</a></div>
+                    <div className = "mb-4"><a href="/#/board" className="hover:underline">Executive Board</a></div>
+                    <div className = "mb-4"><a href="/#/events" className="hover:underline">Events</a></div>
+                    <div className = "mb-4"><a href="/#/blog" className="hover:underline">Blog</a></div>
+                    <div><a href="/#/contact" className="hover:underline">Contact</a></div>
                 </div>
             </div>
       </div>
