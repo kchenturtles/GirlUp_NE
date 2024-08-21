@@ -18,7 +18,7 @@ function Footer () {
               </div>
               <div className="mt-2">Girl Up New England Coalition</div>
               <div>Boston, MA</div>
-            </div>
+            </div> 
             <div className = "block text-lg">
               <div className = "mb-1"><Link to="/" className="hover:underline">Home</Link></div>
               <div className = "mb-1"><Link to="/about" className="hover:underline">About</Link></div>
