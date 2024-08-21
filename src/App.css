@@ -80,8 +80,19 @@ ul {
   border-top-left-radius: 3px;
   border-top-right-radius: 3px;
   background:
-    linear-gradient(90deg, palevioletred, palevioletred) center bottom/0 0.15em no-repeat,
-    linear-gradient(90deg, pink, pink) left bottom/100% 0.15em no-repeat,
+    linear-gradient(90deg, #ec008c, #ec008c) center bottom/0 0.15em no-repeat,
+    linear-gradient(90deg, #f9a8d4, #f9a8d4) left bottom/100% 0.15em no-repeat,
+    linear-gradient(90deg, #fafafa, #fafafa) left bottom/100% no-repeat;
+  transition: background-size 0.3s ease;
+}
+
+.custom-field.two textarea {
+  border-radius: 0;
+  border-top-left-radius: 3px;
+  border-top-right-radius: 3px;
+  background:
+    linear-gradient(90deg, #ec008c, #ec008c) center bottom/0 0.15em no-repeat,
+    linear-gradient(90deg, #f9a8d4, #f9a8d4) left bottom/100% 0.15em no-repeat,
     linear-gradient(90deg, #fafafa, #fafafa) left bottom/100% no-repeat;
   transition: background-size 0.3s ease;
 }
@@ -92,10 +103,16 @@ ul {
   background-size: 100% 0.15em, 100% 0.1em, 100%;
 }
 
+.custom-field.two textarea.dirty,
+.custom-field.two textarea:not(:placeholder-shown),
+.custom-field.two textarea:focus {
+  background-size: 100% 0.15em, 100% 0.1em, 100%;
+}
+
 .custom-field {
   position: relative;
   font-size: 14px;
-  border-top: 20px solid transparent;
+  border-top: 10px solid transparent;
   margin-bottom: 0px;
   display: inline-block;
   --field-padding: 3px;
@@ -109,23 +126,38 @@ ul {
   appearance: none;
   background: #f2f2f2;
   padding: var(--field-padding);
+  padding-left:10px;
   border-radius: 3px;
-  width: 250px;
+  width: 350px;
   outline: none;
   font-size: 14px;
-  margin-left:10px;
+}
+
+.custom-field textarea {
+  border: none;
+  -webkit-appearance: none;
+  -ms-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background: #f2f2f2;
+  padding: 5px;
+  padding-left:10px;
+  border-radius: 3px;
+  width: 350px;
+  outline: none;
+  font-size: 14px;
 }
 
 .custom-field .placeholder {
   position: absolute;
-  left: 19%;
+  left: 5%;
   width: calc(100% - (var(--field-padding) * 45));
   overflow: hidden;
   white-space: nowrap;
   text-overflow: ellipsis;
   top: "-30rem";
   transform: translateY(10%);
-  color: pink;
+  color: #f9a8d4;
   transition: 
     top 0.3s ease,
     color 0.3s ease,
@@ -136,18 +168,45 @@ ul {
 .custom-field input:focus + .placeholder,
 .custom-field input:not(:placeholder-shown) + .placeholder {
   top: -20px;
-  left: 19%;
+  left: 3%;
   font-size: 10px;
-  color: palevioletred;
+  color: #ec008c;
+}
+
+.custom-field textarea.dirty + .placeholder,
+.custom-field textarea:focus + .placeholder,
+.custom-field textarea:not(:placeholder-shown) + .placeholder {
+  top: -20px;
+  left: 3%;
+  font-size: 10px;
+  color: #ec008c;
 }
 
 @media (max-width:1280px) {
   .custom-field .placeholder {
-    left: 9px;
+    left: -75px;
   }
+
+  .custom-field textarea + .placeholder {
+    left: -67px;
+  }
+
   .custom-field input.dirty + .placeholder,
   .custom-field input:focus + .placeholder,
   .custom-field input:not(:placeholder-shown) + .placeholder {
-    left: -1px;
+    left: -82px;
   }
+  .custom-field textarea.dirty + .placeholder,
+  .custom-field textarea:focus + .placeholder,
+  .custom-field textarea:not(:placeholder-shown) + .placeholder {
+    left: -77px;
+  }
+}
+
+.active {
+  color: #ec008c !important
+}
+
+.highlight {
+  color: #ec008c
 }
