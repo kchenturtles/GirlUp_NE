@@ -1,6 +1,12 @@
+import React from "react";
+import { Helmet } from "react-helmet";
+
 function About() {
     return (
       <div className = "bg-gradient-to-b from-[#FFF5EE] via bg-[#ffd1dc] to bg-[#ffd1dc] pb-24">
+        <Helmet>
+            <title>About | Girl Up New England Coalition</title>
+        </Helmet>
         <h1 className = "py-10 pt-20">About</h1>
         <div className="container prose-container">
             <h2>Welcome to the Girl Up New England Coalition!</h2>

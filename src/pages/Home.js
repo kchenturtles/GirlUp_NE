@@ -1,8 +1,12 @@
 import ImageSlideshow from "../components/ImageSlideshow";
+import { Helmet } from "react-helmet";
 
 function Home() {
     return (
       <div className = "h-fit">
+        <Helmet>
+            <title>Home | Girl Up New England Coalition</title>
+        </Helmet>
         <ImageSlideshow />
         <div className = "bg-gradient-to-b from-[#FFF5EE] via bg-[#ffd1dc] to bg-[#ffd1dc] pb-24">
         <h1 className = "py-10 pt-20">Home</h1>
