@@ -6,7 +6,7 @@ import congressional from "../images/congressional.jpeg";
 function About() {
     return (
       <div className = "bg-gradient-to-b from-[#FFF5EE] via bg-[#ffd1dc] to bg-[#ffd1dc] pb-24">
-        <Helmet>
+        <Helmet> 
             <title>About | Girl Up New England Coalition</title>
         </Helmet>
         <h1 className = "py-10 pt-20">About</h1>
