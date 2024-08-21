@@ -1,5 +1,7 @@
 import React from "react";
 import { Helmet } from "react-helmet";
+import capital from "../images/capital.jpg";
+import congressional from "../images/congressional.jpeg";
 
 function About() {
     return (
@@ -15,6 +17,9 @@ function About() {
             <div className="prose">Girl Up was founded by the United Nations Foundation in 2010, and continues to work across a global community of partners to achieve gender equality worldwide. Girl Up works in six focus countries, Guatemala, Ethiopia, Liberia, India, Uganda, and Malawi, to empower girls and ensure they have things like lanterns, bikes, and birth certificates.</div>
             <div className="prose">The Coalition consists of our Co-Presidents and Executive Board members from across New England who work together to organize Girl Up events, lead actions for gender equality, and support Girl Up clubs in the region.</div>
             <div className="prose">The New England Coalition organizes an annual New England Girl Up Summit in the spring, bringing together hundreds of girls from across New England to be inspired by local women leaders and hone concrete skills in advocacy and fundraising. In the past, we have had workshops, panels, and keynote speakers who have included Representative Liz Miranda and state Senator Diana DiZoglio, and videos from leaders including Senator Elizabeth Warren. The coalition has also organized events ranging from a Global 5K around the Charles River as well as Advocacy and STEM bootcamps to annual Soirées and feminine hygiene product drives for women in need.</div>
+        </div>
+        <div className="container prose-container">
+            <img src={congressional} className="w-full" alt="Capital Building"/>
         </div>
         <div className="container prose-container">
             <h2>Our Mission</h2>
@@ -37,6 +42,9 @@ function About() {
         <div className="container prose-container">
             <h2>Girls As Advocates</h2>
             <div className="prose">Girl Up is a borderless movement, with nearly half a million supporters and advocates from around the world. Our unique leadership training and skill development has created a generation of current and future girl leaders; leaders who have helped Girl Up raise millions of dollars for United Nations programs, lobbied members of Congress to stop child marriage and ensure that girls are registered at birth, and have showed their schools, friends and communities the true power of girls.</div>  
+        </div>
+        <div className="container prose-container">
+            <img src={capital} className="w-full" alt="Capital Building"/>
         </div>
         <div className="container prose-container">
             <h2>Our Impact</h2>
