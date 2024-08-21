@@ -1,1 +1,1 @@
-# Girl Up New England Coalition's Official Website
+Girl Up New England Coalition's Official Website
