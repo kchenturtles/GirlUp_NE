@@ -31,7 +31,7 @@ function Footer () {
       </div>
       <div className="w-full bg-[#D8BFD8] text-center p-2">Copyright © 2024 The Girl Up New England Coalition. All rights reserved.</div>
       </div>
-    );
+    ); 
 }
 
 export default Footer;
