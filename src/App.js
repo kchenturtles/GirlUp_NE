@@ -11,6 +11,7 @@ import Blog from './pages/Blog';
 import Events from './pages/Events';
 import Footer from './components/Footer';
 import ScrollToTop from './components/ScrollToTop';
+import { Analytics } from "@vercel/analytics/react"
 
 function App() {
   return (
@@ -27,6 +28,7 @@ function App() {
         <Route path="/contact" element={<Contact />} />
       </Routes>
       <Footer />
+      <Analytics />
       <ScrollToTop />
     </HashRouter>
   );
