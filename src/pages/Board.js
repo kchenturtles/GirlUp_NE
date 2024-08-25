@@ -12,6 +12,7 @@ import jubi from "../images/headshots/JubiO.jpg";
 import kendree from "../images/headshots/KendreeChen.jpg";
 import palak from "../images/headshots/PalakYadav.png";
 import savannah from "../images/headshots/SavannahWick.jpg";
+import caroline from "../images/headshots/CarolineSciarratta.jpeg";
 
 const boardMembers = [
   {
@@ -23,8 +24,8 @@ const boardMembers = [
   {
     name: 'Caroline',
     role: 'Co-President',
-    bio: '   ',
-    image: 'https://via.placeholder.com/150'
+    bio: 'Hi my name is Caroline Sciarratta and I am a sophomore at Salem State University from Burlington, MA. I have been a part of Girl Up since 2019 when I joined my high school’s chapter. I joined the Girl Up New England executive board in spring of 2023 as part of the community service committee. My girl hero is Katie Ledecky, I loved watching her shine and dominate women’s sports this past olympics. A fun fact about me is that I am named after the iconic Boston Red Sox song “Sweet Caroline.”',
+    image: caroline
   },
   {
     name: 'Eva',
