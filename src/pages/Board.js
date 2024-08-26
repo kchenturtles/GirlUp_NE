@@ -12,7 +12,7 @@ import jubi from "../images/headshots/JubiO.jpg";
 import kendree from "../images/headshots/KendreeChen.jpg";
 import palak from "../images/headshots/PalakYadav.png";
 import savannah from "../images/headshots/SavannahWick.jpg";
-import caroline from "../images/headshots/CarolineSciarratta.jpeg";
+import caroline from "../images/headshots/CarolineSciarratta.png";
 
 const boardMembers = [
   {
