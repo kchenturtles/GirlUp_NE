@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.708be43d.css",
-    "main.js": "/static/js/main.4a427672.js",
+    "main.js": "/static/js/main.419d2365.js",
     "static/js/453.a6a97343.chunk.js": "/static/js/453.a6a97343.chunk.js",
     "static/media/summit.jpg": "/static/media/summit.c43de59c7378254b4b46.jpg",
     "static/media/capital.jpg": "/static/media/capital.0a9f40822a563d74c2fc.jpg",
@@ -19,8 +19,8 @@
     "static/media/EvaGrzegorczyk.jpg": "/static/media/EvaGrzegorczyk.bf779b7438ddb247c0b0.jpg",
     "static/media/JubiO.jpg": "/static/media/JubiO.97f899f9bd04e90ca3ab.jpg",
     "static/media/FarrahZerola.jpg": "/static/media/FarrahZerola.ea8e2e0c40157440632d.jpg",
-    "static/media/CarolineSciarratta.jpeg": "/static/media/CarolineSciarratta.1aade4e417e9d18ebcb7.jpeg",
     "static/media/EliseWilson.png": "/static/media/EliseWilson.099aa03f4c31e140488d.png",
+    "static/media/CarolineSciarratta.png": "/static/media/CarolineSciarratta.ce915d20b999d598df3f.png",
     "static/media/group2.jpg": "/static/media/group2.dccc8615997c607cc4a4.jpg",
     "static/media/summit3.jpg": "/static/media/summit3.19b8464cb76426b6f18d.jpg",
     "static/media/congressional.jpeg": "/static/media/congressional.f93df97ae304a4d9c0cd.jpeg",
@@ -30,11 +30,11 @@
     "static/media/logo.png": "/static/media/logo.81674b3914bfda7951c0.png",
     "index.html": "/index.html",
     "main.708be43d.css.map": "/static/css/main.708be43d.css.map",
-    "main.4a427672.js.map": "/static/js/main.4a427672.js.map",
+    "main.419d2365.js.map": "/static/js/main.419d2365.js.map",
     "453.a6a97343.chunk.js.map": "/static/js/453.a6a97343.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.708be43d.css",
-    "static/js/main.4a427672.js"
+    "static/js/main.419d2365.js"
   ]
 }
